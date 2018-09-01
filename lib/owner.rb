@@ -70,11 +70,11 @@ class Owner
 
   def list_pets
     return_string = "I have "
-    return_string += @pets[fishes].length
+    return_string += @pets[:fishes].length
     return_string += " fish, "
-    eturn_string += @pets[dogs].length
+    eturn_string += @pets[:dogs].length
     return_string += " dog(s), and "
-    eturn_string += @pets[catss].length
+    eturn_string += @pets[:cats].length
     return_string += " cat(s)."
   end
 end
