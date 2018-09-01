@@ -74,7 +74,7 @@ class Owner
     return_string += " fish, "
     eturn_string += @pets[:dogs].length.to_s
     return_string += " dog(s), and "
-    eturn_string += @pets[:cats].length.to_s
+    return_string += @pets[:cats].length.to_s
     return_string += " cat(s)."
   end
 end
