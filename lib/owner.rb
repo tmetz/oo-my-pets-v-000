@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   @@all = []
-  attr_accessor :pets
+  attr_accessor :pets, :name
   attr_reader :species
 
   def self.all
