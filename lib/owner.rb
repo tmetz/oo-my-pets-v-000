@@ -67,4 +67,14 @@ class Owner
     end
     @pets = {fishes: [], cats: [], dogs: []}
   end
+
+  def list_pets
+    return_string = "I have "
+    return_string += @pets[fishes].length
+    return_string += " fish, "
+    eturn_string += @pets[dogs].length
+    return_string += " dog(s), and "
+    eturn_string += @pets[catss].length
+    return_string += " cat(s)."
+  end
 end
